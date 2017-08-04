@@ -11,8 +11,11 @@ Uma aplicação simples para o gerenciamento de livros e avaliação dos mesmos 
 
 ## Instruções para executar o projeto
 MongoDB e Node devem estar instalados previamente na máquina. Em seguida, execute os seguintes comandos:
--npm install
--npm start
+
+
+- npm install
+- npm start
+
 
 
 
