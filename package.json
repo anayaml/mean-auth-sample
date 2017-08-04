@@ -1,0 +1,37 @@
+{
+  "name": "mean-library",
+  "version": "1.0.0",
+  "description": "Aplicação para gerenciamento e avaliação de livros.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amslv/mean-library.git"
+  },
+  "keywords": [
+    "node",
+    "angular",
+    "express",
+    "mongo",
+    "meanstack"
+  ],
+  "author": "Ana Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amslv/mean-library/issues"
+  },
+  "homepage": "https://github.com/amslv/mean-library#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.2",
+    "mongoose": "^4.11.5",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
+  }
+}
