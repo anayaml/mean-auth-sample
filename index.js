@@ -12,7 +12,9 @@ const app = express();
 const port = 3000;
 
 // mongo conexão
-mongoose.connect(config.database);
+mongoose.connect(config.database, {
+  useMongoClient: true
+});
 
 // CORS middleware
 app.use(cors());
@@ -22,6 +24,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // BodyParser  middleware
 app.use(bodyParser.json());
+
+// passport middleware
+app.use(passport.initialize());
+app.use(passport.session());
 
 app.use('/users', users);
 
